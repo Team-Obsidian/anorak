@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+#black-background {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  background-color: black;
+  position: absolute;
+  overflow: hidden;
+}
+
+#time-digital {
+  color: white;
+  margin: auto;
+  font-size: 4vw;
+  top: 40vh;
+  left: 30vw;
+  position: absolute;
+}
+
+#clock {
+  color: red;
+}
+
+.fadein {
+  animation-name: opacityfadein;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes opacityfadein {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+/*
+.main::-webkit-scrollbar {
+  display: none;
+}
+*/
