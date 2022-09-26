@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<div id="current-page">
 <head>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="title">Anorak Beta</title>
@@ -33,13 +30,3 @@
     $("#nikoportrait").css("bottom", "40vh")
   });
 </script>
-
-</div>
-</html>
-<!--
-  <div id="black-background"></div>
-<script>
-  $(document).ready(function(){
-    $("#current-page").load("clockscreen.txt");
-  });
-</script>-->

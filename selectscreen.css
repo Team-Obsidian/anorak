@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+img {
+  image-rendering: pixelated;
+}
+
+#logo {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  left: calc(50vw - 250px);
+  background-color: white;
+  /*
+  bottom: -25vw;
+  */
+  bottom: -750px;
+  margin: 0;
+  padding: 0;
+  z-index: 5;
+  justify-content: center;
+  display: flex;
+  transition: bottom 3s ease;
+  transition-delay: 0s;
+}
+#nikowalking {
+  height: 96px;
+  width: 72px;
+  z-index: 6;
+  transform: scaleY(-1);
+}
+
+#floor {
+  width: 100vw;
+  height: 40vh;
+  z-index: 4;
+  left: 0;
+  background-color: #00224b;
+  bottom: -50vh;
+  transition: bottom 4s ease;
+  transition-delay: 2s;
+  margin: 0;
+  position: absolute;
+}
+
+#bluebackground {
+  background-color: #73c2fb;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+}
+
+#nikoportrait {
+  width: auto;
+  height: auto;
+  position: absolute;
+  z-index: 3;
+  bottom: -200px;
+  transition: bottom 3s ease;
+  transition-delay: 5s;
+  left: calc(50vw - 92px)
+}

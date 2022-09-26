@@ -28,11 +28,11 @@ body {
 
 
 #bluetransition {
-  background-color: blue;
+  background-color: #73c2fb;
   border-radius: 50%;
   width: 60vw;
   height: 60vw;
-  transition: width 7s, height 7s, transform 25s;
+  transition: width 7s, height 7s, transform 15s;
   position: absolute;
   right: -60vw;
   bottom: -60vw;
