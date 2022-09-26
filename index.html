@@ -7,22 +7,17 @@
   <script type="text/javascript" src='index.js'></script>
   <script type="text/javascript" src='jquery-3.6.1.min.js'></script>
 </head>
-
+  <div id="current-page">
 <body>
+
   <div id="black-background">
-
-    <div id="time-digital">
-      <div id="clock" class="glow"></div>
-    </div>
-
-  </div>
+  <div id="bluetransition"></div>
 </body>
 
 <script>
   $(document).ready(function(){
-    $('#clock').hide(1000);
-    $('#clock').show(2000);
+    $("#current-page").load("clockscreen.txt");
   });
 </script>
-
+  </div>
 </html>

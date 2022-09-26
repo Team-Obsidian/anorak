@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow: hidden;
 }
 
 #black-background {
@@ -10,10 +11,10 @@ body {
   background-color: black;
   position: absolute;
   overflow: hidden;
+  z-index: 3;
 }
 
 #time-digital {
-  color: white;
   margin: auto;
   font-size: 4vw;
   top: 40vh;
@@ -23,6 +24,21 @@ body {
 
 #clock {
   color: red;
+}
+
+
+#bluetransition {
+  background-color: blue;
+  border-radius: 50%;
+  width: 60vw;
+  height: 60vw;
+  transition: width 7s, height 7s, transform 25s;
+  position: absolute;
+  right: -60vw;
+  bottom: -60vw;
+  z-index: 4;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 .fadein {

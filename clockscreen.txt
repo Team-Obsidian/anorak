@@ -1,0 +1,26 @@
+
+<body>
+
+<div id="black-background">
+
+  <div id="time-digital">
+    <div id="clock" class="glow"></div>
+  </div>
+
+</div>
+<div id="bluetransition"></div>
+</body>
+
+<script>
+$(document).ready(function(){
+  $('#clock').hide(1000);
+  $('#clock').show(2000);
+  $('#clock').click(function(){
+        $('#bluetransition').css("transform", "scale(10)");
+
+  });
+
+
+
+});
+</script>
