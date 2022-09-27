@@ -9,26 +9,25 @@ img {
 
 #logo {
   position: absolute;
+  min-width: 250px;
+  min-height: 250px;
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  left: calc(50vw - 250px);
+  left: calc(50vw - 125px);
   background-color: white;
-  /*
-  bottom: -25vw;
-  */
   bottom: -750px;
   margin: 0;
   padding: 0;
   z-index: 5;
   justify-content: center;
   display: flex;
-  transition: bottom 3s ease;
-  transition-delay: 0s;
 }
 #nikowalking {
   height: 96px;
   width: 72px;
+  min-width: 36px;
+  min-height: 48px;
   z-index: 6;
   transform: scaleY(-1);
 }
@@ -40,8 +39,6 @@ img {
   left: 0;
   background-color: #00224b;
   bottom: -50vh;
-  transition: bottom 4s ease;
-  transition-delay: 2s;
   margin: 0;
   position: absolute;
 }
@@ -59,12 +56,13 @@ img {
 }
 
 #nikoportrait {
-  width: auto;
-  height: auto;
+  width: 182px;
+  min-width: 91px;
+  height: 160px;
+  min-height: 80px;
   position: absolute;
+  margin: auto;
   z-index: 3;
   bottom: -200px;
-  transition: bottom 3s ease;
-  transition-delay: 5s;
-  left: calc(50vw - 92px)
+  left: calc(50vw - 91px);
 }

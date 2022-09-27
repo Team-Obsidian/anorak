@@ -25,8 +25,8 @@
 
 <script>
   $(document).ready(function(){
-    $("#logo").css("bottom", "-250px");
-    $("#floor").css("bottom", "0px");
-    $("#nikoportrait").css("bottom", "40vh")
+    $("#logo").animate({bottom: '-250px'});
+    $("#floor").animate({bottom: "0px"});
+    $("#nikoportrait").animate({bottom: "40vh"});
   });
 </script>

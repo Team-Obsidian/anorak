@@ -10,6 +10,15 @@
 </head>
 
 
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="title">Anorak Beta</title>
+  <style type="text/css">@import url("selectscreen.css");</style>
+  <script type="text/javascript" src='selectscreen.js'></script>
+  <script type="text/javascript" src='jquery-3.6.1.min.js'></script>
+</head>
+
+
 <body>
 <div id=bluebackground>
 <div id="floor"></div>
@@ -28,11 +37,16 @@
 
 <script>
   $(document).ready(function(){
-    $("#logo").css("bottom", "-250px");
-    $("#floor").css("bottom", "0px");
-    $("#nikoportrait").css("bottom", "40vh")
+    $("#logo").animate({bottom: '-250px'}, 3000, "swing");
+    $("#floor").delay(2000).animate({bottom: "0px"}, 4000, "swing");
+    $("#nikoportrait").delay(5000).animate({bottom: "40vh"}, 3000, "swing");
+    $(".bubble").click(function(){
+      $("#nikoportrait").animate({bottom: "-200px"});
+      $("#floor").animate({height: "100vw"}, 5000, "linear");
+    });
   });
 </script>
+
 
 </div>
 </html>

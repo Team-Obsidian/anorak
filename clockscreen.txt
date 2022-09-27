@@ -26,7 +26,7 @@ function moveon() {
 }
 
 $(document).ready(function(){
-  $('#clock').hide(1000);
+  $('#clock').hide();
   $('#clock').show(2000);
   $('#clock').click(function(){
         $('#bluetransition').css("transform", "scale(10)");
